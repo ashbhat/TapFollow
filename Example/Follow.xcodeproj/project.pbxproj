@@ -18,6 +18,11 @@
 		68DDB05116F5194C00EDDC82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB05016F5194C00EDDC82 /* Default-568h@2x.png */; };
 		68DDB05416F5194C00EDDC82 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB05216F5194C00EDDC82 /* MainStoryboard.storyboard */; };
 		68DDB05716F5194C00EDDC82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDB05616F5194C00EDDC82 /* ViewController.m */; };
+		68DDB06116F519DC00EDDC82 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DDB06016F519DC00EDDC82 /* Accounts.framework */; };
+		68DDB06316F519E400EDDC82 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DDB06216F519E400EDDC82 /* Social.framework */; };
+		68DDB06516F55A4300EDDC82 /* buttonsa.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB06416F55A4300EDDC82 /* buttonsa.png */; };
+		68DDB06716F55A4900EDDC82 /* bakc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB06616F55A4900EDDC82 /* bakc1.png */; };
+		68DDB0A516F5675B00EDDC82 /* TapFollow.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDB0A416F5675B00EDDC82 /* TapFollow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		68DDB05316F5194C00EDDC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		68DDB05516F5194C00EDDC82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		68DDB05616F5194C00EDDC82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68DDB06016F519DC00EDDC82 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		68DDB06216F519E400EDDC82 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		68DDB06416F55A4300EDDC82 /* buttonsa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonsa.png; sourceTree = "<group>"; };
+		68DDB06616F55A4900EDDC82 /* bakc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakc1.png; sourceTree = "<group>"; };
+		68DDB0A316F5675B00EDDC82 /* TapFollow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapFollow.h; path = ../TapFollow.h; sourceTree = "<group>"; };
+		68DDB0A416F5675B00EDDC82 /* TapFollow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapFollow.m; path = ../TapFollow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DDB06316F519E400EDDC82 /* Social.framework in Frameworks */,
+				68DDB06116F519DC00EDDC82 /* Accounts.framework in Frameworks */,
 				68DDB03B16F5194C00EDDC82 /* UIKit.framework in Frameworks */,
 				68DDB03D16F5194C00EDDC82 /* Foundation.framework in Frameworks */,
 				68DDB03F16F5194C00EDDC82 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +86,8 @@
 		68DDB03916F5194C00EDDC82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				68DDB06216F519E400EDDC82 /* Social.framework */,
+				68DDB06016F519DC00EDDC82 /* Accounts.framework */,
 				68DDB03A16F5194C00EDDC82 /* UIKit.framework */,
 				68DDB03C16F5194C00EDDC82 /* Foundation.framework */,
 				68DDB03E16F5194C00EDDC82 /* CoreGraphics.framework */,
@@ -88,6 +103,8 @@
 				68DDB05216F5194C00EDDC82 /* MainStoryboard.storyboard */,
 				68DDB05516F5194C00EDDC82 /* ViewController.h */,
 				68DDB05616F5194C00EDDC82 /* ViewController.m */,
+				68DDB0A316F5675B00EDDC82 /* TapFollow.h */,
+				68DDB0A416F5675B00EDDC82 /* TapFollow.m */,
 				68DDB04116F5194C00EDDC82 /* Supporting Files */,
 			);
 			path = Follow;
@@ -96,6 +113,8 @@
 		68DDB04116F5194C00EDDC82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68DDB06616F55A4900EDDC82 /* bakc1.png */,
+				68DDB06416F55A4300EDDC82 /* buttonsa.png */,
 				68DDB04216F5194C00EDDC82 /* Follow-Info.plist */,
 				68DDB04316F5194C00EDDC82 /* InfoPlist.strings */,
 				68DDB04616F5194C00EDDC82 /* main.m */,
@@ -163,6 +182,8 @@
 				68DDB04F16F5194C00EDDC82 /* Default@2x.png in Resources */,
 				68DDB05116F5194C00EDDC82 /* Default-568h@2x.png in Resources */,
 				68DDB05416F5194C00EDDC82 /* MainStoryboard.storyboard in Resources */,
+				68DDB06516F55A4300EDDC82 /* buttonsa.png in Resources */,
+				68DDB06716F55A4900EDDC82 /* bakc1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				68DDB04716F5194C00EDDC82 /* main.m in Sources */,
 				68DDB04B16F5194C00EDDC82 /* AppDelegate.m in Sources */,
 				68DDB05716F5194C00EDDC82 /* ViewController.m in Sources */,
+				68DDB0A516F5675B00EDDC82 /* TapFollow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +320,7 @@
 				68DDB05C16F5194C00EDDC82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
