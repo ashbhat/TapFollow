@@ -22,12 +22,6 @@ In the view that you are using it .h initialize it as follows
 In the view that you are using it .m implement it as follows
 ----------------------------------------
 
-#import "YourViewController.h"
-
-@interface YourViewController ()
-
-@end
-
 @implementation YourViewController
 
 -(IBAction)SomeName:(id)sender
