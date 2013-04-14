@@ -18,8 +18,7 @@ NSString *ErrorAlert;
 NSString *AlertButton;
 }
 
-//-(IBAction)pushButton1:(id)sender;
--(void)method:(NSString *)handle:(NSString *)title:(NSString *)success:(NSString *)button;
+
 -(void)method:(NSString *)handle;
 
 @end

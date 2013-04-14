@@ -12,8 +12,6 @@
    TapFollow *twitter;
 }
 -(IBAction)easy:(id)sender;
--(IBAction)custom:(id)sender;
--(IBAction)FollowAsh:(id)sender;
 
 
 @end
